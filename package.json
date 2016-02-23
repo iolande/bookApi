@@ -1,0 +1,21 @@
+{
+  "name": "bookApi",
+  "version": "0.0.1",
+  "description": "RESTful web API for a book site",
+  "main": "app.js",
+  "author": "iolande",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "gulp-env": "^0.4.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "mongoose": "^4.4.3",
+    "should": "^8.2.1",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0"
+  }
+}

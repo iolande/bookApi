@@ -18,7 +18,7 @@ var bookController = function controller(Book) {
     var query = {};
 
     if(req.query.genre) {
-      query.genre = req.query.genre;
+      query.genre = { $regex : new RegExp(req.query.genre, "i") }
     }
 
     Book.find(query, function(err, books) {
